@@ -8,7 +8,7 @@
 import UIKit
 import URLNavigator
 import GWAPIManager
-
+import ${POD_NAME}
 
 /// 这里是给Example工程的调用示例
 extension APIManager {
