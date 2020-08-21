@@ -1,0 +1,16 @@
+# source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+source 'https://gitlab.btpoc.com/app/ios/componentrepo.git'   # 私有库
+platform :ios, '10.0'
+use_frameworks!
+
+target '${POD_NAME}_Example' do
+  pod '${POD_NAME}', :path => '../'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+    end
+  end
+end
