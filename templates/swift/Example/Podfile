@@ -1,5 +1,4 @@
-# source 'https://github.com/CocoaPods/Specs.git'  # 官方库
-source 'https://gitlab.btpoc.com/app/ios/componentrepo.git'   # 私有库
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
 platform :ios, '10.0'
 use_frameworks!
 
