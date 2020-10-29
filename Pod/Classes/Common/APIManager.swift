@@ -7,10 +7,10 @@
 //
 
 import URLNavigator
-import GWAPIManager
+import YHLCore
 
 public extension APIManager {
-    func distributeRouter${POD_NAME}Service(_ navigator: GWNavigatorType & NavigatorType) {
+    func distributeRouter${POD_NAME}Service(_ navigator: YHLNavigatorType & NavigatorType) {
         
     }
 }

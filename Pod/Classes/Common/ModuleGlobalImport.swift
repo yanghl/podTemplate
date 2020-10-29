@@ -8,8 +8,6 @@
 
 @_exported import UIKit
 @_exported import Foundation
-@_exported import GWUtilCore
-@_exported import GWAPIManager
 @_exported import URLNavigator
 @_exported import SnapKit
 @_exported import RxSwift

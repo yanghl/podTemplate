@@ -7,13 +7,13 @@
 //
 import UIKit
 import URLNavigator
-import GWAPIManager
+import YHLCore
 import ${POD_NAME}
 
 /// 这里是给Example工程的调用示例
 extension APIManager {
     func registAllRouter() {
-        distributeRouter${POD_NAME}Service(GWNavigator.shared)
-        distributeRouter${POD_NAME}ServiceExample(GWNavigator.shared)
+        distributeRouter${POD_NAME}Service(YHLNavigator.shared)
+        distributeRouter${POD_NAME}ServiceExample(YHLNavigator.shared)
     }
 }

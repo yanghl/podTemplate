@@ -45,4 +45,5 @@ TODO: Add long description of the pod here.
     s.dependency 'RZCarPlateNoTextField'
     s.dependency 'URLNavigator'
     s.dependency 'WKWebViewJavascriptBridge'
+    s.dependency 'YHLCore'
 end

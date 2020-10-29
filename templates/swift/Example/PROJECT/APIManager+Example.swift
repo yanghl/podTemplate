@@ -6,11 +6,11 @@
 //  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-import GWAPIManager
+import YHLCore
 import URLNavigator
 
 public extension APIManager {
-    func distributeRouter${POD_NAME}ServiceExample(_ navigator: GWNavigatorType & NavigatorType) {
+    func distributeRouter${POD_NAME}ServiceExample(_ navigator: YHLNavigatorType & NavigatorType) {
 
     }
 }
